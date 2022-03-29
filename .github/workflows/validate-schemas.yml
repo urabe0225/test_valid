@@ -1,10 +1,8 @@
 name: Validate schemas nightly
 
 on:
-  schedule:
-    # every night at one
-    - cron:  '0 1 * * *'
-  workflow_dispatch:
+  push:
+
 
 jobs:
   create-test-matrix:
