@@ -4,22 +4,5 @@
   "$id": "https://smart-data-models.github.io/datamodel.AutonomousMobileRobot/AutonomousMobileRobot-schema.json",
   "title": "Autonomous Mobile Robots data model JSON schema",
   "description": "Common Building Blocks for Autonomous Mobile Robots",
-  "type": "object",
-  "definitions": {
-    "accuracy": {
-      "type": "object",
-      "description": "Property. Position accuracy of the robot.",
-      "properties": {
-        "covariance": {
-          "$ref": "#/definitions/covariance"
-        }
-      },
-      "additionalProperties": false
-    },
-    "angle": {
-      "type": "number",
-      "default": 0.0,
-      "description": "Property. Simple measurement of an angle"
-    }
-  }
+  "type": "object"
 }
